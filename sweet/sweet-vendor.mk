@@ -189,8 +189,10 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libpn553_fw \
+    libqtigef \
     libsndmonitor \
     libspkrprot \
+    libxlog \
     com.qti.sensor.sweet_gc02m1 \
     com.qti.sensor.sweet_imx355 \
     com.qti.sensor.sweet_imx471_front \
@@ -316,6 +318,8 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libremosaiclib \
     libsdk_sr \
+    libsensorcal \
+    libsensorndkbridge \
     libsensorslog \
     libsnpe_adsp \
     libsnpe_dsp_domains \
@@ -328,6 +332,7 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libssc \
+    libssc_default_listener \
     libssccalapi \
     libswregistrationalgo \
     libswvdec \
