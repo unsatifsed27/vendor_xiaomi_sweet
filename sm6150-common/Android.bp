@@ -734,6 +734,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+        name: "libswvqe",
+        owner: "xiaomi",
+        strip: { 
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libswvqe.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libswvqe.so"],
+		},
+	},
+	compile_multilib: "both",
+        check_elf_files: false, 
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libvpphvx",
 	owner: "xiaomi",
 	strip: {
@@ -5436,7 +5457,7 @@ android_app_import {
 dex_import {
 	name: "tcmclient",
 	owner: "xiaomi",
-	jars: ["proprietary/framework/tcmclient.jar"],
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
@@ -5539,6 +5560,18 @@ cc_prebuilt_binary {
 	name: "cnd",
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/cnd"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "cnss-daemon",
+	owner: "xiaomi",
+	srcs: ["proprietary/vendor/bin/cnss-daemon"],
 	check_elf_files: false,
 	strip: {
 		none: true,
