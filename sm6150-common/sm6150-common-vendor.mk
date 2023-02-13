@@ -119,6 +119,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/10_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/11_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/11_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/12_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/12_version_update_ecc_table.sql \
     vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/xiaomi/sm6150-common/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
@@ -148,7 +150,6 @@ PRODUCT_PACKAGES += \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libdiag \
-    libdirac \
     libdsutils \
     libgpudataproducer \
     libgsl \
