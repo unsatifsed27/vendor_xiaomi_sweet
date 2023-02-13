@@ -331,6 +331,7 @@ PRODUCT_PACKAGES += \
     libsdmextension \
     libsdsprpc \
     libsoc_helper \
+    libspl.so \
     libssd \
     libsystem_health_mon \
     libtime_genoff \
