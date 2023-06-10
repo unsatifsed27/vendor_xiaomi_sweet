@@ -319,6 +319,7 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libremosaiclib \
     libsdk_sr \
+    libsensorcal \
     libsensorslog \
     libsnpe_adsp \
     libsnpe_dsp_domains \
@@ -331,6 +332,7 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libssc \
+    libssc_default_listener \
     libssccalapi \
     libswregistrationalgo \
     libswvdec \
