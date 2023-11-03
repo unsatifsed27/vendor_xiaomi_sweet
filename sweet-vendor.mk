@@ -282,6 +282,7 @@ PRODUCT_PACKAGES += \
     libacdbloader \
     libacdbrtac \
     libadiertac \
+    libadm \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
@@ -338,6 +339,7 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libdsd2pcm \
     libqcodec2 \
+    libqtigef \
     librice \
     libsmwrapper \
     libswvdec \
