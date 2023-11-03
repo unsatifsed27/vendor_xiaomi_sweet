@@ -555,7 +555,7 @@ PRODUCT_PACKAGES += \
     libminkdescriptor \
     libminksocket \
     libmmcamera_cac3 \
-    libmpbase \
+    libmpbase_vendor \
     libmulticam_image_optical_zoom \
     libmulticam_video_optical_zoom \
     libnetmgr \
