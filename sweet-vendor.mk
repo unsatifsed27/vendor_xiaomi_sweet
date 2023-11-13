@@ -492,6 +492,8 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_skel \
     libasphere \
     libshoebox \
+    libmisoundfx \
+    libxlog \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     camera.qcom \
